@@ -1,5 +1,12 @@
 # Set checker
 This program generates a grid of set cards and cheks if a SET is present.
+A SET consists of three cards stisfying all of these conditions:
+- they all have the same number or have three different numbers;
+- they all have the same symbol or have three different symbols;
+- they all have the same shading or have three different shadings;
+- they all have the same color or have three diferent colors;
+
+Given any two cards, there is exaclty one card that forms a set with those two cards. Therefore, the probablity of producing a SET from 3 randomly drawn cards from a complete deck is 1/79.
 
 ### Output ###
 The output looks like:
