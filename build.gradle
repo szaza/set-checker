@@ -2,8 +2,11 @@ group 'set'
 version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
+
+mainClassName = "edu.ubbcluj.set.Main"
 
 repositories {
     mavenCentral()
